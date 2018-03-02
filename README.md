@@ -1,10 +1,8 @@
 # README for CATANA (v0.9)
-------
 
 Time-stamp: <2018-03-02 10:45:34 Cheng-Kai Shiau>
 
 ## Introduction
-------
 
 In higher eukaryotes, the generation of RNA isoforms,
 including alternative splicing events (AS) and alternative
@@ -18,14 +16,12 @@ Annotation (CATANA) to identify all 10 known AS and AT
 events.
 
 ## Installation
-------
 
 Not required!
 CATANA is written by Perl without additional packages.
 Installation is not required!
 
 ## Usage of CATANA
-------
 
 ```
   perl CATANA.pl [-i] <Input GTF/GFF3 file name> [-o] <Folder name for output, optional>
@@ -33,7 +29,6 @@ Installation is not required!
 ```
 
 ### Options
-------
 
 ```
 -i/--infile FILENAME
@@ -70,7 +65,6 @@ is turned off. Set this parameter to 1 to dump out debug
 message.
 
 ## Examples
-------
 
 ```
 perl CATANA.pl -i manually_created_alternative_events/simulated_SE.gff3 -l test.txt
@@ -83,7 +77,6 @@ than given output folder name, and then dump processing log
 into file named 'test.txt'.
 
 ## Supplementary tools under CATANA
-------
 
 There are two tools under CATANA folder. One is named
 'counting_gene_IDs.sh', and the other one is GFF3 simulator.
